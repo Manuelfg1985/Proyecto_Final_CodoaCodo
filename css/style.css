@@ -8,6 +8,14 @@ body {
     height: 100vh;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff; /* Ajusta el color de fondo según sea necesario */
+    z-index: 1000; /* Ajusta el índice Z según sea necesario */
+}
+
 ul
 {
     margin: 0;
