@@ -2,9 +2,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content:left;
-    align-items:left;
-    background: linear-gradient(darkblue,aqua);
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: linear-gradient(darkblue, aqua);
+    background-color: #ffffff;
     height: 100vh;
 }
 
@@ -12,25 +13,29 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #ffffff; /* Ajusta el color de fondo según sea necesario */
-    z-index: 1000; /* Ajusta el índice Z según sea necesario */
+    background-color: #ffffff;
+    z-index: 1000;
 }
 
-ul
-{
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+ul {
     margin: 0;
     padding: 0;
     display: flex;
 }
-ul li 
-{
+ul li {
     list-style: none;
     margin: 0 15px;
     transition: .4s;
-
 }
-ul li a 
-{
+ul li a {
     display: block;
     text-decoration: none;
     position: relative;
@@ -44,19 +49,14 @@ ul:hover li a {
     transform: scale(1.2);
     opacity: .5;
     filter: blur(4px);
-
 }
 
-ul li a:hover 
-{
+ul li a:hover {
     transform: scale(1.5);
     opacity: 1;
-    filter:blur(0);
+    filter: blur(0);
 }
-
-
-ul li a:before 
-{
+ul li a:before {
     content: '';
     position: absolute;
     top: 0;
@@ -65,12 +65,10 @@ ul li a:before
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     transition: .4s;
-    transform:scaleX(0) ;
+    transform: scaleX(0);
     z-index: -1;
-
 }
-ul li a:hover:before
-{
+ul li a:hover:before {
     transition: transform .4s;
     transform-origin: left;
     transform: scaleX(1);
