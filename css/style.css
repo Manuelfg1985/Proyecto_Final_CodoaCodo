@@ -1,16 +1,19 @@
+/* General reset for body and html */
 body, html {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif; /* Adding a default font */
 }
 
+/* Body styles */
 body {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     background: linear-gradient(darkblue, aqua);
-    height: 100vh;
+    min-height: 100vh; /* Ensure body takes up at least full height of viewport */
+    display: flex;
+    flex-direction: column;
 }
 
+/* Sticky navbar */
 .sticky {
     position: fixed;
     top: 0;
@@ -19,63 +22,72 @@ body {
     z-index: 1000;
 }
 
+/* Logo styles */
 .logo {
     width: 100px;
     height: auto;
     margin-right: 20px;
-    display: inline-block; 
-    vertical-align: middle; 
+    display: inline-block;
+    vertical-align: middle;
 }
 
-ul {
+/* Nav menu styles */
+.nav-menu {
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
+/* Nav item styles */
+.nav-menu li {
+    margin-right: 20px;
+}
+
+/* Nav link styles */
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px;
+}
+
+/* Container styles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+/* Navbar styles */
 .navbar {
     background-color: #333;
     padding: 10px 0;
 }
-.navbar .logo {
-    color: #fff;
-    font-size: 24px;
-    text-decoration: none;
-    margin-right: 20px;
-}
-.navbar .nav-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.navbar .nav-menu li {
-    display: inline-block;
-    margin-right: 20px;
-}
-.navbar .nav-menu li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+
+/* Main content styles */
+.main-content {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin-top: 80px; /* Ensure space below fixed navbar */
+    flex: 1; /* Allow main content to grow and fill space */
 }
 
-.main-content {
-    padding: 40px 0;
-    background-color: #f9f9f9;
-    margin-top: 80px;
-}
+/* Heading styles */
 .main-content h1 {
     font-size: 36px;
+    margin-bottom: 20px;
 }
+
+/* Paragraph styles */
 .main-content p {
     font-size: 18px;
 }
 
+/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
