@@ -18,8 +18,18 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #333; /* Ensure both navbars have the same background color */
     z-index: 1000;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Logo styles */
@@ -37,6 +47,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    margin-left: auto; /* Align the nav menu to the right */
 }
 
 /* Nav item styles */
@@ -52,39 +63,43 @@ body {
     padding: 7px;
 }
 
-/* Container styles */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Navbar styles */
-.navbar {
-    background-color: #333;
-    padding: 10px 0;
-}
-
 /* Main content styles */
 .main-content {
     padding: 40px 20px;
     background-color: #f9f9f9;
-    margin-top: 80px;
+    margin-top: 60px;
+    flex: 1;
+}
+
+/* Terminos container styles */
+.terminos__container {
+    padding: 80px 20px 20px;
+    background-color: #f4f4f4;
+    flex: 1;
+}
+
+/* Acerca container styles */
+.acerca__container {
+    padding: 80px 20px 20px;
+    background-color: #f4f4f4;
     flex: 1;
 }
 
 /* Heading styles */
-.main-content h1 {
-    font-size: 36px;
+h1, h2, h3 {
+    color: #333;
     margin-bottom: 20px;
 }
 
 /* Paragraph styles */
-.main-content p {
-    font-size: 18px;
+p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* List styles */
+ul {
+    padding-left: 20px;
 }
 
 /* Footer styles */
@@ -93,4 +108,5 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    margin-top: auto;
 }
