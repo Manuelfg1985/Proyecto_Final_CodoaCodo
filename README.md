@@ -32,22 +32,22 @@ El sitio web de Cabañas Doña Arminda presenta una estructura clara y accesible
 
 ## Estructura de Directorios
 
-cabanas-dona-arminda/
-├── css/
-│   └── style.css
-├── img/
-│   ├── seven.png
-│   ├── IMG (0).jpeg
-│   ├── IMG (1).jpeg
-│   ├── IMG (2).jpeg
-│   ├── IMG (3).jpeg
-│   ├── IMG (4).jpeg
-│   ├── IMG (5).jpeg
-│   └── IMG (6).jpeg
-├── index.html
-├── acerca.html
-├── terminos.html
-└── contact.html
+cabanas-dona-arminda/<br>
+├── css/<br>
+│   └── style.css<br>
+├── img/<br>
+│   ├── seven.png<br>
+│   ├── IMG (0).jpeg<br>
+│   ├── IMG (1).jpeg<br>
+│   ├── IMG (2).jpeg<br>
+│   ├── IMG (3).jpeg<br>
+│   ├── IMG (4).jpeg<br>
+│   ├── IMG (5).jpeg<br>
+│   └── IMG (6).jpeg<br>
+├── index.html<br>
+├── acerca.html<br>
+├── terminos.html<br>
+└── contact.html<br>
 
 ## Contribuciones
 
@@ -65,4 +65,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obten
 ## Contacto
 Para preguntas o comentarios, puedes contactarnos en hatusil@proton.me
 
-Derechos de autor © 2024 - Todos los derechos reservados.
+<p style="text-align: center;">Derechos de autor © 2024 - Todos los derechos reservados.</p>
