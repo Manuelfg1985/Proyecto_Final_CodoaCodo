@@ -24,14 +24,14 @@ El sitio web de Cabañas Doña Arminda presenta una estructura clara y accesible
 1. Clonar el repositorio:
    ```sh
    git clone https://github.com/tu-usuario/cabanas-dona-arminda.git
-
+    ```
 2. Navegar al directorio del proyecto:
    cd cabanas-dona-arminda
 
 3. Abrir index.html en tu navegador web preferido.
 
 ## Estructura de Directorios
-
+```css
 cabanas-dona-arminda/<br>
 ├── css/<br>
 │   └── style.css<br>
@@ -48,7 +48,7 @@ cabanas-dona-arminda/<br>
 ├── acerca.html<br>
 ├── terminos.html<br>
 └── contact.html<br>
-
+```
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si tienes alguna idea para mejorar el proyecto, por favor sigue estos pasos:
