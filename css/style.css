@@ -202,24 +202,24 @@ color: #ecf0f1;
     opacity: 0.74;
     outline: 2px solid #fff7;
 }
- /* ------------------------- Depende el navegador corregir los links -------------------*/
+/* ------------------------- Depende el navegador corregir los links -------------------*/
 .catalogue__cabin:first-child{
-    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo/img/IMG\ \ \(1\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(1\).jpeg");
 }
 .catalogue__cabin:nth-child(2){
-    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo/img/IMG\ \ \(2\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(2\).jpeg");
 }
 .catalogue__cabin:nth-child(3){
-    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo/img/IMG\ \ \(3\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(3\).jpeg");
 }
 .catalogue__cabin:nth-child(4){
-    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo/img/IMG\ \ \(4\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(4\).jpeg");
 }
 .catalogue__cabin:nth-child(5){
-    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo/img/IMG\ \ \(5\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(5\).jpeg");
 }
 .catalogue__cabin:nth-child(6){
-    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo/img/IMG\ \ \(6\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(6\).jpeg");
 }
 /* --------------- CATALOGUE QUERIES ----------------- */
 @media (min-width: 56.25rem) {
