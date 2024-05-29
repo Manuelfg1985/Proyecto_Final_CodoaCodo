@@ -66,29 +66,41 @@ body, div, ul, nav, header, footer, a, li, label {
 }
 
 /* --------- Main content styles --------- */
-.profile {
+.profile, .acerca {
     container-name: profile;
     container-type: inline-size;    
 }
 
-.profile__wrapper {
+.profile__wrapper, .acerca__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
     max-width: 1400px;
+}
+
+.profile__data-container, .acerca__data-container {
+    max-width: 820px;
+    padding: 12px;
+    background-color: #fff;
     margin: auto;
 }
 
-.profile__data-container {
-    max-width: 820px;
-    padding: 12px;
-    background-color: #fff;    
+.acerca__data {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: left;
+    border-radius: 25px;
+    box-shadow: 0px 0px 9px #0002;  
 }
+
 .profile h1 {
     margin-bottom: 10px;
     color: #2980b9;
 }
+
 .profile h2, h3, h4 {   
     margin: 10px; 
     color: #2980b9;
@@ -107,7 +119,7 @@ body, div, ul, nav, header, footer, a, li, label {
     height: auto;
 }
 
-.profile__description{
+.profile__description {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
