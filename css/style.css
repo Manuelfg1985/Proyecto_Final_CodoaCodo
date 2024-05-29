@@ -57,7 +57,6 @@ body, div, ul, nav, header, footer, a, li, label {
     text-decoration: underline;
 }
 
-/* -------- Logo styles -------- */
 .header__logo {
     max-width: 100%;
     width: 50px;
@@ -65,13 +64,16 @@ body, div, ul, nav, header, footer, a, li, label {
     border-radius: 25px;
 }
 
-/* --------- Main content styles --------- */
+
+/* ----------------------------- Main content styles -------------------------------- */
+
+
 .profile, .acerca {
     container-name: profile;
     container-type: inline-size;    
 }
 
-.profile__wrapper, .acerca__wrapper {
+.profile__wrapper, .acerca__wrapper, .terminos__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,14 +81,14 @@ body, div, ul, nav, header, footer, a, li, label {
     max-width: 1400px;
 }
 
-.profile__data-container, .acerca__data-container {
+.profile__data-container, .acerca__data-container, .terminos__data-container {
     max-width: 820px;
     padding: 12px;
     background-color: #fff;
     margin: auto;
 }
 
-.acerca__data {
+.acerca__data, .terminos__data {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -126,7 +128,7 @@ body, div, ul, nav, header, footer, a, li, label {
     overflow: hidden;
 }
 
-/* -------- PROFILE QUERIES --------- */
+/* --------------------------------- PROFILE QUERIES ----------------------------- */
 
 @container profile (min-width:56.25rem){
     .profile__wrapper {
@@ -214,7 +216,7 @@ color: #ecf0f1;
     opacity: 0.74;
     outline: 2px solid #fff7;
 }
-/* ------------------------- Depende el navegador corregir los links -------------------*/
+
 .catalogue__cabin:first-child{
     background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(1\).jpeg");
 }
@@ -233,7 +235,9 @@ color: #ecf0f1;
 .catalogue__cabin:nth-child(6){
     background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(6\).jpeg");
 }
-/* --------------- CATALOGUE QUERIES ----------------- */
+
+/* --------------------------------- CATALOGUE QUERIES -------------------------------- */
+
 @media (min-width: 56.25rem) {
     .catalogue__cabins-container{
         grid-template-columns:repeat(auto-fill, minmax(300px,1fr));
@@ -263,13 +267,12 @@ color: #ecf0f1;
 }
 
 
-
-
+/* --------------------------------------- Footer Section --------------------------------*/
 
 footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: #bdc3c7;
     color: #2980b9;
-    font-size: 22px;
+    font-size: 20px;
 }
