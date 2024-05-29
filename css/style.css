@@ -346,6 +346,21 @@ color: #ecf0f1;
         grid-area: button;
     }
 }
+
+/* --------------------------------------- Map Section --------------------------------*/
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;    
+}
+
+.map__content{
+    max-width: 100%;
+    border: #0002 solid 2px;
+    border-radius: 12px;
+}
+
 /* --------------------------------------- Footer Section --------------------------------*/
 
 footer {

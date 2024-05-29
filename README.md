@@ -23,7 +23,7 @@ El sitio web de Cabañas Doña Arminda presenta una estructura clara y accesible
 
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/tu-usuario/cabanas-dona-arminda.git
+   git clone https://github.com/Manuelfg1985/Proyecto_Final_CodoaCodo.git
     ```
 2. Navegar al directorio del proyecto:
    cd cabanas-dona-arminda
@@ -37,17 +37,17 @@ cabanas-dona-arminda/<br>
 │   └── style.css<br>
 ├── img/<br>
 │   ├── seven.png<br>
-│   ├── IMG (0).jpeg<br>
-│   ├── IMG (1).jpeg<br>
-│   ├── IMG (2).jpeg<br>
-│   ├── IMG (3).jpeg<br>
-│   ├── IMG (4).jpeg<br>
-│   ├── IMG (5).jpeg<br>
-│   └── IMG (6).jpeg<br>
-├── index.html<br>
-├── acerca.html<br>
-├── terminos.html<br>
-└── contact.html<br>
+│   ├── IMG (0).jpeg
+│   ├── IMG (1).jpeg
+│   ├── IMG (2).jpeg
+│   ├── IMG (3).jpeg
+│   ├── IMG (4).jpeg
+│   ├── IMG (5).jpeg
+│   └── IMG (6).jpeg
+├── index.html
+├── acerca.html
+├── terminos.html
+└── contact.html
 ```
 ## Contribuciones
 
@@ -63,6 +63,6 @@ cabanas-dona-arminda/<br>
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
 
 ## Contacto
-Para preguntas o comentarios, puedes contactarnos en hatusil@proton.me
+Para preguntas o comentarios, puedes contactarnos en https://github.com/Manuelfg1985 o hatusil@proton.me
 
-<p style="text-align: center;">Derechos de autor © 2024 - Todos los derechos reservados.</p>
+Derechos de autor © 2024 - Todos los derechos reservados.
