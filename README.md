@@ -32,11 +32,11 @@ El sitio web de Cabañas Doña Arminda presenta una estructura clara y accesible
 
 ## Estructura de Directorios
 ```css
-cabanas-dona-arminda/<br>
+cabanas-dona-arminda
 ├── css/<br>
-│   └── style.css<br>
+│   └── style.css
 ├── img/<br>
-│   ├── seven.png<br>
+│   ├── seven.png
 │   ├── IMG (0).jpeg
 │   ├── IMG (1).jpeg
 │   ├── IMG (2).jpeg

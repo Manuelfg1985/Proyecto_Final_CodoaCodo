@@ -218,22 +218,22 @@ color: #ecf0f1;
 }
 
 .catalogue__cabin:first-child{
-    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(1\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo-main/img/IMG\ \ \(1\).jpeg");
 }
 .catalogue__cabin:nth-child(2){
-    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(2\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo-main/img/IMG\ \ \(2\).jpeg");
 }
 .catalogue__cabin:nth-child(3){
-    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(3\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo-main/img/IMG\ \ \(3\).jpeg");
 }
 .catalogue__cabin:nth-child(4){
-    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(4\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo-main/img/IMG\ \ \(4\).jpeg");
 }
 .catalogue__cabin:nth-child(5){
-    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(5\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo-main/img/IMG\ \ \(5\).jpeg");
 }
 .catalogue__cabin:nth-child(6){
-    background-image:linear-gradient(#0009, #0009), url("/img/IMG\ \ \(6\).jpeg");
+    background-image:linear-gradient(#0009, #0009), url("/Proyecto_Final_CodoaCodo-main/img/IMG\ \ \(6\).jpeg");
 }
 
 /* --------------------------------- CATALOGUE QUERIES -------------------------------- */
@@ -312,11 +312,18 @@ color: #ecf0f1;
     background-color: #26a;
     color: #fff;
 }
+.form__input-container input[type="reset"] {
+    padding: 12px;
+    background-color: #26a;
+    color: #fff;
+}
 
 .form__title{
     font-size: 2.4rem;
     color: #26a;
 }
+.select .select	
+
 
 /* --------------- CONTACT QUERIES ----------------- */
 @media (min-width: 56.25rem) {
@@ -346,7 +353,6 @@ color: #ecf0f1;
         grid-area: button;
     }
 }
-
 /* --------------------------------------- Map Section --------------------------------*/
 .map {
     display: flex;

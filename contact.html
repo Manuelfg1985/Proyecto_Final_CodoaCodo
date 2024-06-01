@@ -24,7 +24,7 @@
         <div class="contacto__wrapper">
             <section class="form" id="form">
                 <h2 class="form__title" id="contact">Contacto</h2>
-                <form class="form__form" id="contactForm">
+                <form  class="form__form" id="contactForm">
                     <div class="form__input-container">
                         <label for="name">Nombre
                             <input type="text" id="name" name="name" placeholder="Juan" required>
@@ -41,12 +41,30 @@
                         </label>
                     </div>
                     <div class="form__input-container">
+                        <label for="date">Fecha
+                            <input type="date" id="date" name="date" placeholder="fecha" required>
+                        </label>
+                    </div>
+                    <div class="form__input-container">
+                        <label>Huéspedes
+                            <select name="select">
+                                <option value="value1"selected >1</option>
+                                <option value="value2" >2</option>
+                                <option value="value3">3 o más</option>
+                              </select>                           
+                        </label>
+                    </div>
+                    <div class="form__input-container">
                         <label for="message">Mensaje
                             <textarea id="message" name="message" placeholder="Tu mensaje..." required></textarea>
                         </label>
                     </div>
+                    <br>
                     <div class="form__input-container">
                         <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                        
+                        
                     </div>
                 </form>
             </section>
@@ -70,10 +88,12 @@
             let name = document.getElementById('name').value;
             let lastname = document.getElementById('lastname').value;
             let email = document.getElementById('email').value;
+            let date = document.getElementById('date').value;
             let message = document.getElementById('message').value;
 
-            if (name && lastname && email && message) {
+            if (name && lastname && email && date &&message) {
                 alert('Formulario enviado correctamente.');
+                
                 // Aquí se puede agregar el código para enviar el formulario a un servidor
             } else {
                 alert('Por favor, complete todos los campos.');
