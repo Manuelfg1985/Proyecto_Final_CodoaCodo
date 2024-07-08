@@ -726,7 +726,8 @@ h4 {
     color: #26a;
 }
 
-.select .select
+/*.select .select*/
+
 /* --------------- CONTACT QUERIES ----------------- */
 @media (min-width: 56.25rem) {
     .form__form {
@@ -735,8 +736,7 @@ h4 {
             "name lastname"
             "email email"
             "message message"
-            "button button"
-        ;
+            "button button";
     }
 
     .form__input-container:first-child(1) {
